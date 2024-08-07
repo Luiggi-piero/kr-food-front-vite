@@ -1,5 +1,5 @@
 ## KR Food
-Sistema restaurante KR Food, creado en React
+Sistema restaurante KR Food, creado en React + Vite
 
 
 https://github.com/user-attachments/assets/ed3072a6-242c-4649-ae55-05631b39aab5
