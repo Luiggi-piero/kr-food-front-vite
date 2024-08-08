@@ -2,7 +2,8 @@
 Sistema restaurante KR Food, creado en React + Vite
 
 
-https://github.com/user-attachments/assets/ed3072a6-242c-4649-ae55-05631b39aab5
+[https://github.com/user-attachments/assets/ed3072a6-242c-4649-ae55-05631b39aab5](https://github.com/user-attachments/assets/8296157b-2a5d-4936-84a5-be05a6956954
+)
 
 ### `npm run dev`
 
