@@ -25,7 +25,7 @@ function RegisterPage() {
 
     useEffect(() => {
         if (!user) return;
-        returnUrl ? navigate(returnUrl) : navigate('/');
+        returnUrl ? navigate(returnUrl) : navigate('/home');
     }, [user])
 
 

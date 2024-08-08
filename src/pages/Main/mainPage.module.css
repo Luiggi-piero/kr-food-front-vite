@@ -1,0 +1,41 @@
+.container {
+    /* min-height: 100vh; */
+    min-height: calc(100vh - 52.8px);
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/banner.jpg');
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+.container .content {
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.container .content .title {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 0.4rem;
+}
+
+.container .content .description {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    max-width: 50%;
+    margin-bottom: 1.2rem;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .container .content .description {
+        max-width: 100%;
+    }
+}

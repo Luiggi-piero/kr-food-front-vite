@@ -16,11 +16,13 @@ import FoodsAdminPage from "./pages/FoodsAdmin/FoodsAdminPage.jsx"
 import FoodEditPage from "./pages/FoodEdit/FoodEditPage.jsx"
 import UsersPage from "./pages/UsersPage/UsersPage.jsx"
 import UserEditPage from "./pages/UserEdit/UserEditPage.jsx"
+import MainPage from "./pages/Main/MainPage.jsx"
 
 function AppRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />}></Route>
+            <Route path="/" element={<MainPage />}></Route>
+            <Route path="/home" element={<HomePage />}></Route>
             <Route path="/search/:searchTerm" element={<HomePage />}></Route>
             <Route path="/tag/:tag" element={<HomePage />}></Route>
             <Route path="/food/:id" element={<FoodPage />}></Route>

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import classes from './search.module.css';
 
-function Search({ searchRoute = '/search/', defaultRoute = '/', placeholder = 'Search...', margin }) {
+function Search({ searchRoute = '/search/', defaultRoute = '/home', placeholder = 'Search...', margin }) {
 
     const [term, setTerm] = useState('');
     const navigate = useNavigate();

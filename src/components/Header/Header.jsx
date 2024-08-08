@@ -11,7 +11,7 @@ function Header() {
     return (
         <header className={classes.header}>
             <div className={classes.container}>
-                <Link to='/' className={classes.logo}>
+                <Link to='/home' className={classes.logo}>
                     KR Food
                 </Link>
                 <nav>

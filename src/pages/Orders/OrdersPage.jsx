@@ -82,7 +82,7 @@ function OrdersPage() {
             {
                 orders?.length === 0 && (
                     <NotFound
-                        linkRoute={filter ? '/orders' : '/'}
+                        linkRoute={filter ? '/orders' : '/home'}
                         linkText={filter ? 'Show All' : 'Go To Home Page'}
                     />
                 )

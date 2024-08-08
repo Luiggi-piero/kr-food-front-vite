@@ -5,7 +5,7 @@ export const createOrder = async order => {
         const data = await axios.post('/api/orders/create', order);
         return data;
     } catch (error) {
-
+        console.log(error);
     }
 };
 
@@ -24,7 +24,7 @@ export const pay = async paymentId => {
         const { data } = await axios.put('/api/orders/pay', { paymentId });
         return data;
     } catch (error) {
-
+        console.log(error);
     }
 };
 
