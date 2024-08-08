@@ -1,8 +1,15 @@
-# React + Vite
+## KR Food
+Sistema restaurante KR Food, creado en React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+[https://github.com/user-attachments/assets/ed3072a6-242c-4649-ae55-05631b39aab5](https://github.com/user-attachments/assets/8296157b-2a5d-4936-84a5-be05a6956954
+)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `npm run dev`
+
+Ejecuta la aplicación en modo desarrollo.\
+Abre [http://localhost:5173](http://localhost:5173) para verlo en tu navegador.
+
+### `npm run build`
+
+Crea la aplicación para producción en la carpeta `dist`.
